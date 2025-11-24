@@ -4,16 +4,16 @@ import { HomeIcon, CloudDownload } from "lucide-react";
 export const DATA = {
   name: "Emon Ahmed",
   initials: "EA",
-  url: "https://emon-ahmed.vercel.app/",
+  url: "https://emonahmed.xyz/",
   location: "Dhaka, Bangladesh",
   locationLink: "https://maps.app.goo.gl/HbGYWKmvZHWApKZ96",
   description:
     "Software Engineer | JavaScript | React.js & Node.js Specialist",
   summary:
-    "Software Developer proficient in **React.js**, **Node.js**, **Express.js**, and **MongoDB**, with experience building scalable applications and efficient **REST APIs**. Proficient in **React-Redux**, **Redux-Toolkit**, **RTK-Query**, and performance **Optimization**",
+    "**AI-Driven Full-Stack Developer** with **4 months** of experience, specializing in Backend using **Nest.js** & **Express.js** and Frontend with **React.js** & **Next.js**. Highly proficient in database, authentication, and performance optimization for delivering scalable apps.",
   avatarUrl: "/Emon.jpg",
   skills: [
-    "JavaScript", "TypeScript", "Node.js", "Express.js", " REST APIs", "JWT Auth", "React.js", "Redux.js", "Redux-Toolkit", "Next.js", "TailwindCSS", "MongoDB", "Mongoose", "Mongoose", "Git", "Github", "Postman", "Zoho", "Trello", "Jira",
+    "JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "Redux-Toolkit", "Node.js", "Nest.js", "Express.js", " REST APIs", "JWT Auth", "TailwindCSS", "MongoDB", "Mongoose", "PostgreSQL", "Git", "Github", "Postman", "Trello", "Jira",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -39,7 +39,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/emon-dev",
+        url: "https://www.linkedin.com/in/emon-ahmed-dev/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -67,16 +67,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Salt Innovate ",
-      href: "https://saltinnovate.com/",
+      company: "6sense HQ",
+      href: "https://www.6sensehq.com/",
       badges: ["Internship"],
-      location: "Remote",
-      title: "Trainee Software Engineer",
-      logoUrl: "/salt-innovate.png",
-      start: "December 2024",
-      end: "March 2025",
+      location: "Onsite",
+      title: "Frontend Developer Intern",
+      logoUrl: "/6senseHQ.webp",
+      start: "04 August 2025",
+      end: "04 December 2025",
       description:
-        "Contributed to building scalable backend services using Node.js, Express, and Next.js. Designed and integrated RESTful APIs to enable seamless frontend-backend communication. Collaborated on real-world projects, including a Hiring Manager platform, a young school website, and an Islamic EdTech solution.",
+        "Participated in Agile sprints, contributing to planning, standups, and testing to maintain code quality and consistency. Developed two internal projects, focusing on scalability, optimized performance, and clean frontend architecture. Collaborated with developers, designers, and managers to deliver responsive and high - quality frontend solutions efficiently.",
     },
     // {
     //   company: "Shopify",
@@ -94,11 +94,12 @@ export const DATA = {
   education: [
     {
       school: "City University",
-      href: "https://www.cityuniversity.edu.bd/",
+      href: "https://cityuniversity.ac.bd/",
       degree: "Bachelor of Science in Computer Science and Engineering",
       logoUrl: "/cse.png",
       start: "December 2019",
       end: "June 2024",
+      description: "Major in Software Engineering",
     },
     {
       school: "Dhamrai Hardinge Govt High School & College",
@@ -107,6 +108,7 @@ export const DATA = {
       logoUrl: "/hsc.jpg",
       start: "July 2017",
       end: "July 2019",
+      description: "Science Group",
     },
   ],
   certifications: [
@@ -121,8 +123,16 @@ export const DATA = {
     {
       school: "Programming Hero",
       href: "https://web.programming-hero.com/congrats/complete/61bdfafcf5118b71ade5a68a",
+      degree: "Next Level Web Development",
+      logoUrl: "/Next-Level-Web-Development.jpg",
+      start: "28 October 2025",
+      end: "Present",
+    },
+    {
+      school: "Programming Hero",
+      href: "https://web.programming-hero.com/congrats/complete/61bdfafcf5118b71ade5a68a",
       degree: "Complete Web Development",
-      logoUrl: "/phero.png",
+      logoUrl: "/Complete-Web-Development.jpg",
       start: "June 2021",
       end: "March 2022",
     },
@@ -198,7 +208,7 @@ export const DATA = {
     },
     {
       title: "Minimal Tech Blog Website",
-      href: "https://minimal-tech-blog.vercel.app/",
+      href: "https://backendstories.website/",
       dates: "Personal Project",
       active: true,
       description:
@@ -212,7 +222,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://minimal-tech-blog.vercel.app/",
+          href: "https://backendstories.website/",
           icon: <Icons.globe className="size-3" />,
         },
         {
