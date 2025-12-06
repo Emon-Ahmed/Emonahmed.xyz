@@ -8,9 +8,9 @@ export const DATA = {
   location: "Dhaka, Bangladesh",
   locationLink: "https://maps.app.goo.gl/HbGYWKmvZHWApKZ96",
   description:
-    "Software Engineer | JavaScript | React.js & Node.js Specialist",
+    "JavaScript & TypeScript | Backend Specialist in Nest.js, & Next.js | Former Intern at @6sense HQ",
   summary:
-    "**AI-Driven Full-Stack Developer** with **4 months** of experience, specializing in Backend using **Nest.js** & **Express.js** and Frontend with **React.js** & **Next.js**. Highly proficient in database, authentication, and performance optimization for delivering scalable apps.",
+    "**AI-Driven Full Stack Developer** with **4 months** of experience, specializing in Backend using **Nest.js** & **Express.js** and Frontend with **React.js** & **Next.js**.Highly proficient in database, authentication, and performance optimization for delivering scalable apps",
   avatarUrl: "/Emon.jpg",
   skills: [
     "JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "Redux-Toolkit", "Node.js", "Nest.js", "Express.js", " REST APIs", "JWT Auth", "TailwindCSS", "MongoDB", "Mongoose", "PostgreSQL", "Git", "Github", "Postman", "Trello", "Jira",
@@ -125,8 +125,16 @@ export const DATA = {
       href: "https://web.programming-hero.com/congrats/complete/61bdfafcf5118b71ade5a68a",
       degree: "Next Level Web Development",
       logoUrl: "/Next-Level-Web-Development.jpg",
-      start: "28 October 2025",
+      start: "October 2025",
       end: "Present",
+    },
+    {
+      school: "JS Bangladesh",
+      href: "https://jsbangladesh.com/?cert_hash=d3b64ebc33bfeaca",
+      degree: "Data Structures and Algorithms with JavaScript",
+      logoUrl: "/js-bangladesh.jpg",
+      start: "December 2024",
+      end: "January 2025",
     },
     {
       school: "Programming Hero",
@@ -180,7 +188,7 @@ export const DATA = {
       dates: "Official Work",
       active: true,
       description:
-        " Contributed to a school website's foundation using Next.js, enabling future backend integration with a component-based, scalable structure and optimized for server-side data handling.",
+        "Developed the frontend structure of a school website using Next.js, enabling smooth future integration of backend APIs. Implemented a component-based architecture for scalable, maintainable SSR/backend with optimized data flow.",
       technologies: [
         "React.js",
         "Next.js",
@@ -212,7 +220,7 @@ export const DATA = {
       dates: "Personal Project",
       active: true,
       description:
-        "Implemented scalable state and data fetching with Redux Toolkit and RTK Query, ensuring structured API flow and consistent blog rendering across components.",
+        "Developed a scalable frontend using Redux Toolkit and RTK Query, state management and dynamic content rendering. Integrated structured APIs to blog post delivery and maintain data flow, enhancing user experience and frontend performance.",
       technologies: [
         "React.js",
         "Redux.js",
@@ -239,13 +247,41 @@ export const DATA = {
       image: "/minimal-tech-blog-banner.png",
       video: "#",
     },
+    // {
+    //   title: "On Time Hiring - Hiring Solution",
+    //   href: "http://ontimehiring.com/",
+    //   dates: "Official Work",
+    //   active: true,
+    //   description:
+    //     "Built a backend system with Node.js, Express, and MongoDB using modular RESTful APIs, JWT auth, and MVC routing for user, job, and applicant management.",
+    //   technologies: [
+    //     "Node.js",
+    //     "Express.js",
+    //     "React.js",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "http://ontimehiring.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     // {
+    //     //   type: "Source",
+    //     //   href: "https://github.com/Emon-Ahmed/",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "/ontimehiring-website-banner.png",
+    //   video: "#",
+    // },
     {
-      title: "On Time Hiring - Hiring Solution",
-      href: "http://ontimehiring.com/",
-      dates: "Official Work",
+      title: "JobHunt Web Application",
+      href: "https://jobhunt-bangladesh.vercel.app/",
+      dates: "Personal Project",
       active: true,
       description:
-        "Built a backend system with Node.js, Express, and MongoDB using modular RESTful APIs, JWT auth, and MVC routing for user, job, and applicant management.",
+        "Developed JobHunt using Next.js & NextAuth for secure login, supporting role-based features for seekers and recruiters. And  fast - loading pages and set up stable connections with backend APIs and MongoDB for dynamic data.",
       technologies: [
         "Node.js",
         "Express.js",
@@ -255,16 +291,16 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "http://ontimehiring.com/",
+          href: "https://jobhunt-bangladesh.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/Emon-Ahmed/",
-        //   icon: <Icons.github className="size-3" />,
-        // },
+        {
+          type: "Source",
+          href: "https://github.com/Emon-Ahmed/JobHunt-Bangladesh",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/ontimehiring-website-banner.png",
+      image: "/job-hunt.png",
       video: "#",
     },
   ],
