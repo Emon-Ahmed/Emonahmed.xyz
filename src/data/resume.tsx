@@ -8,12 +8,12 @@ export const DATA = {
   location: "Dhaka, Bangladesh",
   locationLink: "https://maps.app.goo.gl/HbGYWKmvZHWApKZ96",
   description:
-    "JavaScript & TypeScript | Backend Specialist in Nest.js, & Next.js | Former Intern at @6sense HQ",
+    "Backend Developer Intern @NeosCoder | JavaScript & TypeScript | Node.js, NestJS, MongoDB, MySQL",
   summary:
-    "**AI-Driven Full Stack Developer** with **4 months** of experience, specializing in Backend using **Nest.js** & **Express.js** and Frontend with **React.js** & **Next.js**.Highly proficient in database, authentication, and performance optimization for delivering scalable apps",
+    "**AI-Driven Backend Developer** with nearly **1 year** of experience, specializing in Backend using **Nest.js** & **Express.js** and Frontend with **React.js** & **Next.js**. Experienced in authentication, database design & performance optimization for delivering backend apps.",
   avatarUrl: "/Emon.jpg",
   skills: [
-    "JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "Redux-Toolkit", "Node.js", "Nest.js", "Express.js", " REST APIs", "JWT Auth", "TailwindCSS", "MongoDB", "Mongoose", "PostgreSQL", "Git", "Github", "Postman", "Trello", "Jira",
+    "JavaScript", "TypeScript", "Node.js", "Nest.js", "Express.js", "PostgreSQL", "MySQL", "TypeORM", "MongoDB", "Mongoose", "REST APIs", "AWS", "Docker", "CI/CD Pipelines", "Github Actions", "Jenkins", "React.js", "Next.js", "Redux.js", "Redux-Toolkit", "TailwindCSS", "Git", "Github", "Postman", "Trello", "Jira",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -67,16 +67,28 @@ export const DATA = {
 
   work: [
     {
-      company: "6sense HQ",
+      company: "NeosCoder Limited",
+      href: "https://www.neoscoder.com/",
+      badges: ["Internship"],
+      location: "Onsite",
+      title: "Backend Developer Intern",
+      logoUrl: "/neoscoder.png",
+      start: "26 January 2026",
+      end: "Present",
+      description:
+        "Contributing to the RTM (Road To Market) project to develop a Sales Force Automation system for Akij Food & Beverage. Building and maintaining scalable backend services using Node.js, NestJS, MySQL, & Python (FastAPI) for enterprise apps. Writing optimized SQL queries for data retrieval, reporting, debugging production issues, & improving system performance.",
+    },
+    {
+      company: "6sense HQ Limited",
       href: "https://www.6sensehq.com/",
       badges: ["Internship"],
       location: "Onsite",
-      title: "Frontend Developer Intern",
+      title: "Internship",
       logoUrl: "/6senseHQ.webp",
       start: "04 August 2025",
       end: "04 December 2025",
       description:
-        "Participated in Agile sprints, contributing to planning, standups, and testing to maintain code quality and consistency. Developed two internal projects, focusing on scalability, optimized performance, and clean frontend architecture. Collaborated with developers, designers, and managers to deliver responsive and high - quality frontend solutions efficiently.",
+        "Contributed to Agile sprints by implementing frontend features, fixing bugs, and supporting testing to maintain stable releases. Built and improved two internal web apps with focus on reusable components, API integration, and performance optimization.",
     },
     // {
     //   company: "Shopify",
@@ -154,66 +166,66 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Earl Brown Education Consulting",
-      href: "https://www.ebedc.com/",
-      dates: "Official Work",
-      active: true,
-      description:
-        "Optimized app structure and data flow with Next.js, ensuring seamless frontend-backend integration and maintainable, scalable architecture through component-driven development.",
-      technologies: [
-        "React.js",
-        "Next.js",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.ebedc.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/Emon-Ahmed/",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "/earl-brown-education-banner.png",
-      video: "#",
-    },
+    // {
+    //   title: "Earl Brown Education Consulting",
+    //   href: "https://www.ebedc.com/",
+    //   dates: "Official Work",
+    //   active: true,
+    //   description:
+    //     "Optimized app structure and data flow with Next.js, ensuring seamless frontend-backend integration and maintainable, scalable architecture through component-driven development.",
+    //   technologies: [
+    //     "React.js",
+    //     "Next.js",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://www.ebedc.com/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     // {
+    //     //   type: "Source",
+    //     //   href: "https://github.com/Emon-Ahmed/",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "/earl-brown-education-banner.png",
+    //   video: "#",
+    // },
 
-    {
-      title: "AAL Young Kingz Website",
-      href: "https://www.aalyoungkingz.org/",
-      dates: "Official Work",
-      active: true,
-      description:
-        "Developed the frontend structure of a school website using Next.js, enabling smooth future integration of backend APIs. Implemented a component-based architecture for scalable, maintainable SSR/backend with optimized data flow.",
-      technologies: [
-        "React.js",
-        "Next.js",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.aalyoungkingz.org/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/Emon-Ahmed/",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-        // {
-        //   type: "Server",
-        //   href: "https://github.com/Emon-Ahmed/",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "/aal-young-kingz-website-banner.png",
-      video: "#",
-    },
+    // {
+    //   title: "AAL Young Kingz Website",
+    //   href: "https://www.aalyoungkingz.org/",
+    //   dates: "Official Work",
+    //   active: true,
+    //   description:
+    //     "Developed the frontend structure of a school website using Next.js, enabling smooth future integration of backend APIs. Implemented a component-based architecture for scalable, maintainable SSR/backend with optimized data flow.",
+    //   technologies: [
+    //     "React.js",
+    //     "Next.js",
+    //     "TailwindCSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://www.aalyoungkingz.org/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     // {
+    //     //   type: "Source",
+    //     //   href: "https://github.com/Emon-Ahmed/",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //     // {
+    //     //   type: "Server",
+    //     //   href: "https://github.com/Emon-Ahmed/",
+    //     //   icon: <Icons.github className="size-3" />,
+    //     // },
+    //   ],
+    //   image: "/aal-young-kingz-website-banner.png",
+    //   video: "#",
+    // },
     {
       title: "Minimal Tech Blog Website",
       href: "https://backendstories.website/",
